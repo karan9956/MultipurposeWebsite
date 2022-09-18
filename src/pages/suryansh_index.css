@@ -1,0 +1,159 @@
+
+#title{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-2deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color:  rgb(255, 255, 0);
+  text-shadow: 
+    -1px -1px 0 rgb(198, 198, 44),
+    -2px -2px 0  rgb(198, 198, 44),
+    -3px -3px 0  rgb(198, 198, 44),
+    -4px -4px 0  rgb(198, 198, 44),
+    -5px -5px 0  rgb(198, 198, 44),
+    -6px -6px 0  rgb(198, 198, 44),
+    -7px -7px 0  rgb(198, 198, 44),
+    -8px -8px 0  rgb(198, 198, 44),
+    -30px 20px 40px dimgrey
+}
+.inputs{
+    margin-left: 109PX;
+    margin-top: 20px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 25px;
+}
+#user--input{
+    display: block;
+    width: 20%;
+    padding: 15px;
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 16px 16px 16px 16px;
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+    color: #313131;
+    font-size: 20px;
+    transition: 0.4s ease;
+  }
+  #user--input:focus {
+    background-color: rgba(255, 255, 255, 0.75);
+  }
+#user--input::placeholder {
+    color: gray; 
+  }
+#submit{
+    margin-left: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding: 13px 20px;
+    margin-left: 15px;
+    border-radius: 5px;
+    background-color: rgba(255, 19, 19, 0.5);
+    transition: background 0.3s ease-in-out;
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+#submit:hover {
+  background: #c3112d;
+  }
+  #location{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+  }
+  #date{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+  }
+  .weather-box {
+    text-align: center;
+  }
+  .weather-box .temp {
+    position: relative;
+    display: table;
+    margin: 30px auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 15px 25px;
+    color: #FFF;
+    font-size: 102px;
+    font-weight: 900;
+    text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+    text-align: center;
+    box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+  }
+  .weather-box.temp:after {
+    content: '\A';
+    white-space: pre;
+}
+  .weather-box .weather {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+  }
+  .data{
+    display:inline-block;
+    text-align:left;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 5px 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    color: #FFF;
+    box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+  }
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    clear: both;
+    position: relative;
+    color: white;
+    font-weight: 60;
+    margin-top: 10px;
+}
+ #weather--anchor:link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  #weather--anchor:visited {
+    text-decoration: none;
+    color: gray;
+  }
+  
+  #weather--anchor:hover {
+    text-decoration: underline;
+    color: red;
+  }
+  
+  #weather--anchor:active {
+    text-decoration: underline;
+    color: aqua;
+  }

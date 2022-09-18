@@ -1,0 +1,235 @@
+.newslist {
+    list-style-type: none;
+    column-width: 300px;
+    column-gap: 10px;
+}
+
+.newsapp {
+    display: grid;
+    gap: 1em;
+    margin: 3em;
+}
+@media only screen and (max-width : 1024px){
+    .newsform {
+        display: flexbox;
+        flex-wrap: wrap;
+        justify-content: center;
+        grid-template-columns: 1fr auto;
+        gap: 1em;
+    }
+    .searchbutton {
+        border-radius: 30px;
+        color: #EA8CA7;
+        width: 20em;
+        height: 3em;
+        background-color: #2e082d;
+        font-family: 'DejaVu Sans';
+        border: hidden;
+        transition: all 0.2s ease 0s;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        animation: animate 5s linear infinite;
+    }
+    @keyframes animate{
+        0%{
+            color: #EA8CA7;
+            background-color: #2e082d;
+        }
+        50%{
+            background-color: #2e082d;
+            color: aqua;
+        }
+        100%{
+            color: #EA8CA7;
+            background-color: #2e082d;
+        }
+    }
+        .searchbutton:hover {
+            background-color: #2e082d;
+            color: #EA8CA7;
+            box-shadow: 0px 10px 20px rgb(66, 5, 49);
+            transform: translateY(-5px);
+        }
+    
+        .searchbutton:active {
+            transform: translateY(+2px);
+        }
+}
+.newsform {
+    display: flex;
+    
+    justify-content: center;
+    grid-template-columns: 1fr auto;
+    gap: 1em;
+}
+
+
+.searchbar {
+    width: 60%;
+    border: 5px solid black;
+    border-radius: 30px;
+    font: inherit;
+    padding: 0.5em;
+    background-color: rgb(66, 5, 49);
+    color: azure;
+}
+
+    .searchbar:focus {
+        outline: none;
+        box-shadow: 0 0 15px rgb(66, 5, 49);
+    }
+
+.summary {
+    margin-bottom: 5px;
+    color: azure;
+}
+.items{
+    margin-left: -30px;
+}
+.card {
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    overflow: hidden;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    border-radius: 30px;
+    margin-bottom: 1em;
+    background-color: black;
+    box-shadow: 0 0 20px #EA8CA7;
+    transition: all 0.2s ease 0s;
+}
+
+    .card:hover {
+        opacity: 0.8;
+        transform: scale(1.05);
+        box-shadow: 0 0 20px rgb(66, 5, 49);
+    }
+
+.fakediv {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.filler{
+    min-height: 45vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.newsfooter {
+    font-family: 'DejaVu Sans';
+    font-size: 30px;
+    text-align: center;
+    color: #2e082d;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headline {
+    text-align: center;
+    color: #EA8CA7;
+    margin-bottom: 10px;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.headtext:link {
+    color: #EA8CA7;
+    text-decoration: none;
+}
+
+.headtext:visited {
+    color: darkgray;
+    text-decoration: none;
+}
+
+.headtext:hover {
+    color: aqua;
+    text-decoration: none;
+}
+
+.headtext:active {
+    color: azure;
+    text-decoration: none;
+}
+
+
+.thumbnail {
+    float: right;
+    border-radius: 50px;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+.searchbutton {
+    border-radius: 30px;
+    color: #EA8CA7;
+    width: 10em;
+    background-color: #2e082d;
+    font-family: 'DejaVu Sans';
+    border: hidden;
+    transition: all 0.2s ease 0s;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate{
+    0%{
+        color: #EA8CA7;
+        background-color: #2e082d;
+    }
+    50%{
+        background-color: #2e082d;
+        color: aqua;
+    }
+    100%{
+        color: #EA8CA7;
+        background-color: #2e082d;
+    }
+}
+    .searchbutton:hover {
+        background-color: #2e082d;
+        color: #EA8CA7;
+        box-shadow: 0px 10px 20px rgb(66, 5, 49);
+        transform: translateY(-5px);
+    }
+
+    .searchbutton:active {
+        transform: translateY(+2px);
+    }
+.headings{
+    color: #2e082d;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 1s ease 0s;
+}
+    .headings:hover{
+        text-shadow: 0 0 5px rgb(66, 5, 49);
+    }
+.desc{
+    color: #2e082d;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 1s ease 0s;
+}
+    .desc:hover{
+        text-shadow: 0 0 5px rgb(66, 5, 49);
+    }

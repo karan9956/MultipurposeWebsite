@@ -1,0 +1,198 @@
+.result{
+    font-family: 'DejaVu Sans';
+    font-size: 20px;
+}
+
+.labell {
+    font-family: 'DejaVu Sans';
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 5px; 
+}
+
+.optioms {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    
+}
+@media only screen and (max-width: 1024px){
+    .optioms {
+        padding-top: 10px;
+        display: flex;
+        justify-content: left;
+        flex-direction: row;
+        
+        margin-top: 5px;
+    }
+    .datArea {
+        width: 50%;
+        padding: 10px;
+    }
+
+    .detailsubdiv, .quotediv {
+        background-color: black;
+        border-radius: 30px;
+        color: azure;
+        margin-right: 10px;
+        
+    }
+    .labell {
+        font-family: 'DejaVu Sans';
+        font-size: 20px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-top: 5px;
+    }
+    .ip {
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 45%;
+        border-radius: 20px;
+        height: 30px;
+        background-color: #2e082d;
+        color: azure;
+        border: hidden;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+
+    .ipamt {
+        margin-left: 10px;
+        padding-left: 10px;
+        width: 45%;
+        border-radius: 20px;
+        height: 30px;
+        background-color: #2e082d;
+        color: azure;
+        border: hidden;
+        margin-top: 5px;
+    }
+    .buttoncur2 {
+        margin-left: 10px;
+        border-radius: 30px;
+        color: #2e082d;
+        width: 70px;
+        background-color: aqua;
+        font-family: 'DejaVu Sans';
+        border: hidden;
+        transition: all 0.5s ease 0s;
+        min-height: fit-content;
+        margin: 5px;
+    }
+
+        .buttoncur2:hover {
+            background-color: #2e082d;
+            color: #EA8CA7;
+            box-shadow: 0px 10px 20px rgb(182, 86, 155);
+        }
+}
+.scrollist {
+    overflow: auto;
+    max-height: 20em;
+    min-height: 100px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 5px solid black;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.temp2{
+    display: flex;
+    flex-direction: column;
+}
+.ip {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 15%;
+    border-radius: 20px;
+    height: 30px;
+    background-color: #2e082d;
+    color: azure;
+    border: hidden;
+    margin-top: 5px;
+}
+.ipamt {
+    margin-left: 10px;
+    padding-left: 10px;
+    width: 15%;
+    border-radius: 20px;
+    height: 30px;
+    background-color: #2e082d;
+    color: azure;
+    border: hidden;
+    margin-top: 5px;
+}
+.buttoncur {
+    margin-left: 10px;
+    border-radius: 30px;
+    color: #2e082d;
+    width: 10%;
+    background-color: aqua;
+    font-family: 'DejaVu Sans';
+    border: hidden;
+    transition: all 0.5s ease 0s;
+    min-height: 30px;
+}
+
+    .buttoncur:hover {
+        background-color: #2e082d;
+        color: #EA8CA7;
+        box-shadow: 0px 10px 20px rgb(182, 86, 155);
+    }
+
+.result {
+    border-radius: 30px;
+    margin-bottom: 1em;
+    background-color: black;
+}
+.returndata, .returndata1, .errordata{
+    color: azure;
+}
+.datArea{
+    width: 60%;
+    padding: 10px;
+}
+
+.resultarea{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.buttoncur2 {
+    margin-left: 10px;
+    border-radius: 30px;
+    color: #2e082d;
+    width: 50%;
+    background-color: aqua;
+    font-family: 'DejaVu Sans';
+    border: hidden;
+    transition: all 0.5s ease 0s;
+    min-height: 30px;
+    margin: 5px;
+}
+
+    .buttoncur2:hover {
+        background-color: #2e082d;
+        color: #EA8CA7;
+        box-shadow: 0px 10px 20px rgb(182, 86, 155);
+    }
+.stockss{
+    margin-top: 20px;
+}
+.stockss, .detailsubdiv, .pg, .quotediv {
+    display: flex;
+    flex-direction: row;
+}
+
+.detailsubdiv, .quotediv {
+    background-color: black;
+    border-radius: 30px;
+    color: azure;
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
